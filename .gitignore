@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.venv/
+
+auth_full.txt
+
+# Backup authentication files
+backend/app/api/auth_backup.py
+backend/app/schemas/auth_backup.py
